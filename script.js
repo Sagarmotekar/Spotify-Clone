@@ -17,9 +17,9 @@ let songs = [
     {songName: "Sajdaa", filePath: "songs/sajdaa.mp3", coverPath: "covers/5.jpg"},
     {songName: "Soch Na Sake", filePath: "songs/soch na sake.mp3", coverPath: "covers/6.jpg"},
     {songName: "Tera Hone Laga Hoon", filePath: "songs/Tera Hone Laga Hoon.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Tum Hi Ho", filePath: "songs/Tum Hi Ho.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Tujhe Kitna Chahne Lage", filePath: "songs/tujhe kitna chahne lage.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Rabtaa", filePath: "songs/Rabtaa.mp3", coverPath: "covers/10.jpg"},
+    {songName: "Tum Hi Ho", filePath: "songs/tum hi ho.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Tujhe Kitna Chahne Lage", filePath: "songs/tujhe kitna chahne.mp3", coverPath: "covers/9.jpg"},
+    {songName: "Rabtaa", filePath: "songs/rabtaa.mp3", coverPath: "covers/10.jpg"},
 ];
 
 // Set cover images and song names in the list
