@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu&display=swap');
+
+body {
+    background-color: aliceblue;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    font-family: "ubuntu", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: #000000;
+}
+
+nav ul li {
+    padding: 0 12px;
+
+}
+
+.brand img {
+    width: 44px;
+    padding: 0 8px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem
+}
+.container {
+    min-height: 67vh;   
+    background-color: #000000;
+    color: white;
+    font-family: "ubuntu", sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url("arijitsinghbg.jpg");
+    background-size: cover;
+}
+.bottom {
+    position: sticky;
+    /* width: 100%; */
+    height: 130px;
+    background-color: #000000;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+.icons {
+    margin-top: 14px;
+}
+.icons i {
+    padding: 0 10px;
+    cursor: pointer;
+    color: rgb(4, 136, 4);
+}
+#myProgressBar {
+    cursor: pointer;
+    width: 80vw;
+}
+.songItemContainer {
+    margin-top: 74px;
+}
+.songItem {
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: #000000;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songlistplay {
+    color: black;
+}
+.songItem img {
+    width: 43px;
+    margin: 0 23px ;
+    border-radius: 34px;
+}
+.timeStamp {
+    margin: 0 23px;
+}
+.timeStamp i{
+    cursor: pointer;
+}
+.songInfo {
+    position: absolute;
+    left: 10vw;
+    font-family: 'varela Round', sans-serif;
+}
+.songInfo img {
+   opacity: 0;
+   transition: opacity 0.4s ease-in;
+}
+
+/* responsive for mobile devices */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+     
+    .brand img {
+        width: 36px;
+    }
+    
+    .songItem img {
+        width: 36px;
+        margin: 0 12px;
+    }
+    
+    .bottom {
+        height: auto;
+        padding: 20px;
+    }
+    
+    .icons i {
+        font-size: 1.5rem;
+    }
+    .icons {
+        margin-top: 50px;
+    }
+    .songInfo {
+        left: 5vw;
+        font-size: 0.9rem;
+        opacity: 1;
+
+    }
+    .songName {
+        font-size: 0.9rem;
+    }
+    .timeStamp {
+        font-size: 0.8rem;
+    }
+ }
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .container {
+        width: 80%;
+        padding: 30px;
+    }
+
+    
+    .songItem img {
+        width: 40px;
+        margin: 0 15px;
+    }
+    
+    .bottom {
+        height: auto;
+        padding: 30px;
+    }
+    
+    .icons i {
+        font-size: 1.8rem;
+    }
+    .songInfo img {
+        width: 50px;
+        opacity: 1;
+    }
+    .icons {
+        margin-top: 50px;
+
+    }
+    .songInfo {
+        left: 8vw;
+        font-size: 1rem;
+        opacity: 1;
+    }
+}
